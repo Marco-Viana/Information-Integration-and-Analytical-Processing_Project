@@ -35,9 +35,7 @@ Explore insights using a BI tool (e.g., Power BI), focusing on key business ques
 
 A suggested directory layout:
 
-bash
-Copiar
-Editar
+
 .
 ├── data/
 │   └── pizza_sales_original.xlsx        # Original dataset (if included)
@@ -51,7 +49,6 @@ Editar
 │   └── final_analysis.pbix             # Power BI report (example)
 ├── README.md                           # This README file
 └── ...
-Feel free to adjust folder names as needed.
 
 ## Dataset
 
@@ -150,9 +147,7 @@ Clone or download this repository.
 
 Install dependencies (within a Python 3 environment):
 
-bash
-Copiar
-Editar
+
 pip install -r requirements.txt
 Make sure you also have PostgreSQL installed and a local or remote instance to connect to.
 
