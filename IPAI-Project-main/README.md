@@ -67,19 +67,19 @@ Total Price Transaction (price for that line item)
 
 ### Dimensions:
 
-DimDate
+#### DimDate
 
 Includes attributes such as Day, Month, Year, Hour, Minute, Second, Day of Week, etc.
 
-DimPizza
+#### DimPizza
 
 Represents pizza details (Name, Category, Size, Unit Price, Ingredients).
 
-DimCategory
+#### DimCategory
 
 An outrigger dimension storing high-level pizza categories (Classic, Veggie, Supreme, Chicken).
 
-DimOrder
+#### DimOrder
 
 Summarizes the overall order (e.g., total price).
 
