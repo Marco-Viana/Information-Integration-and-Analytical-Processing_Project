@@ -35,9 +35,19 @@ Explore insights using a BI tool (e.g., Power BI), focusing on key business ques
 
 A suggested directory layout:
 
-
-<pre> \```bash . ├── data/ │ └── pizza_sales_original.xlsx # Original dataset (if included) ├── etl/ │ ├── ipai-proj.ipynb # Jupyter Notebook with ETL code │ └── scripts/ # Any additional Python scripts ├── docs/ │ ├── IPAI_Relatorio_stage3.pdf # Project report │ └── IPAI-DW-Modeling.drawio # Dimensional modeling diagram ├── reports/ │ └── final_analysis.pbix # Power BI report ├── README.md # This README file └── ... \``` </pre>
-## Dataset
+...
+├── data/
+│   └── pizza_sales_original.xlsx        # Original dataset (if included)
+├── etl/
+│   ├── ipai-proj.ipynb                 # Jupyter Notebook with ETL code
+│   └── scripts/                        # Any additional Python scripts
+├── docs/
+│   ├── IPAI_Relatorio_stage3.pdf       # Project report (analysis, modeling, etc.)
+│   └── IPAI-DW-Modeling.drawio         # Dimensional modeling diagram
+├── reports/
+│   └── final_analysis.pbix             # Power BI report (example)
+├── README.md                           # This README file
+└── ...
 
 Name: Pizza Sales Dataset
 
