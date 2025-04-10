@@ -5,19 +5,17 @@ Welcome to the Pizza Sales Data Warehouse project! This repository contains all 
 
 1. Overview
 
-2. Project Structure
+2. Dataset
 
-3. Dataset
+3. Dimensional Model
 
-4. Dimensional Model
+4. ETL Process
 
-5. ETL Process
+5. Analytical Questions
 
-6. Analytical Questions
+6. Setup & Usage
 
-7. Setup & Usage
-
-8. Contributing
+7. Contributing
 
 ## Overview
 
@@ -31,23 +29,7 @@ Implement an ETL process in Python to load cleaned and transformed data into a P
 
 Explore insights using a BI tool (e.g., Power BI), focusing on key business questions like most popular pizzas, busiest times, and capacity usage.
 
-## Project Structure
-
-A suggested directory layout:
-
-...
-├── data/
-│   └── pizza_sales_original.xlsx        # Original dataset (if included)
-├── etl/
-│   ├── ipai-proj.ipynb                 # Jupyter Notebook with ETL code
-│   └── scripts/                        # Any additional Python scripts
-├── docs/
-│   ├── IPAI_Relatorio_stage3.pdf       # Project report (analysis, modeling, etc.)
-│   └── IPAI-DW-Modeling.drawio         # Dimensional modeling diagram
-├── reports/
-│   └── final_analysis.pbix             # Power BI report (example)
-├── README.md                           # This README file
-└── ...
+## Dataset
 
 Name: Pizza Sales Dataset
 
